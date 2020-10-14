@@ -1,3 +1,4 @@
+import 'package:Portfolio/constants.dart';
 import 'package:flutter/material.dart';
 
 import 'Screens/home_screen.dart';
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'IvyLeano',
       theme: ThemeData(
+        fontFamily: Constants.DEFAULT_FONT_FAMILY,
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),

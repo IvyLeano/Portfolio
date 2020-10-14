@@ -32,9 +32,12 @@ class NavBarComponent extends StatelessWidget {
             title: Text(Constants.APP_BAR_DRAWER_LIST_TILE_ONE,
                 style: TextStyle(color: Colors.pink)),
             onTap: () {
+              Navigator.pop(context);
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => HomeScreen()),
+                MaterialPageRoute(
+                    builder: (context) =>
+                        HomeScreen()), //TODO: pop context first
               );
             },
           ),
@@ -50,6 +53,7 @@ class NavBarComponent extends StatelessWidget {
             title: Text(Constants.APP_BAR_DRAWER_LIST_TILE_TWO,
                 style: TextStyle(color: Colors.pink)),
             onTap: () {
+              Navigator.pop(context);
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => ProjectsScreen()),
@@ -68,6 +72,7 @@ class NavBarComponent extends StatelessWidget {
             title: Text(Constants.APP_BAR_DRAWER_LIST_TILE_THREE,
                 style: TextStyle(color: Colors.pink)),
             onTap: () {
+              Navigator.pop(context);
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => TechnologyScreen()),
@@ -86,6 +91,7 @@ class NavBarComponent extends StatelessWidget {
             title: Text(Constants.APP_BAR_DRAWER_LIST_TILE_FOUR,
                 style: TextStyle(color: Colors.pink)),
             onTap: () {
+              Navigator.pop(context);
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => EmailScreen()),

@@ -1,4 +1,6 @@
+import 'package:Portfolio/constants.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class HeaderComponent extends StatelessWidget {
   const HeaderComponent({Key key, this.header});
@@ -7,6 +9,14 @@ class HeaderComponent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(header); // TODO: add text size and style for headers
+    return Text(
+      header,
+      style: TextStyle(
+        fontWeight: FontWeight.bold,
+        fontSize: Constants.HEADER_FONT_SIZE,
+        fontFamily: Constants.HEADER_FONT_FAMILY,
+      ),
+    );
+    // TODO: add text size and style for headers
   }
 }
