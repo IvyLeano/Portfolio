@@ -17,41 +17,49 @@ class NavBarComponent extends StatelessWidget {
         children: <Widget>[
           DrawerHeader(
             decoration: BoxDecoration(
-              color: Colors.amber[700],
+              color: Constants.DEFAULT_APP_COLOR,
             ),
           ),
           ListTile(
-            tileColor: Colors.amber[600],
+            tileColor: Constants.APP_BAR_DRAWER_LIST_TILE_ONE_COLOR,
             leading: Icon(
               Icons.home,
-              color: Colors.pink,
+              color: Constants.ICON_AND_APP_BAR_TEXT_COLOR,
               size: Constants.APP_BAR_DRAWER_ICON_SIZE,
               semanticLabel:
                   Constants.APP_BAR_DRAWER_LIST_TILE_ONE_SEMANTIC_LABEL,
             ),
             title: Text(Constants.APP_BAR_DRAWER_LIST_TILE_ONE,
-                style: TextStyle(color: Colors.pink)),
+                style: TextStyle(
+                  color: Constants.ICON_AND_APP_BAR_TEXT_COLOR,
+                  fontFamily: Constants.HEADER_FONT_FAMILY,
+                  fontSize: Constants.DRAWER_FONT_SIZE,
+                )),
             onTap: () {
               Navigator.pop(context);
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) =>
-                        HomeScreen()), //TODO: pop context first
+                  builder: (context) => HomeScreen(),
+                ),
               );
             },
           ),
           ListTile(
-            tileColor: Colors.amber[400],
+            tileColor: Constants.APP_BAR_DRAWER_LIST_TILE_TWO_COLOR,
             leading: Icon(
               Icons.code,
-              color: Colors.pink,
+              color: Constants.ICON_AND_APP_BAR_TEXT_COLOR,
               size: Constants.APP_BAR_DRAWER_ICON_SIZE,
               semanticLabel:
                   Constants.APP_BAR_DRAWER_LIST_TILE_TWO_SEMANTIC_LABEL,
             ),
             title: Text(Constants.APP_BAR_DRAWER_LIST_TILE_TWO,
-                style: TextStyle(color: Colors.pink)),
+                style: TextStyle(
+                  color: Constants.ICON_AND_APP_BAR_TEXT_COLOR,
+                  fontFamily: Constants.HEADER_FONT_FAMILY,
+                  fontSize: Constants.DRAWER_FONT_SIZE,
+                )),
             onTap: () {
               Navigator.pop(context);
               Navigator.push(
@@ -61,16 +69,22 @@ class NavBarComponent extends StatelessWidget {
             },
           ),
           ListTile(
-            tileColor: Colors.amber[300],
+            tileColor: Constants.APP_BAR_DRAWER_LIST_TILE_THREE_COLOR,
             leading: Icon(
               Icons.computer,
-              color: Colors.pink,
+              color: Constants.ICON_AND_APP_BAR_TEXT_COLOR,
               size: Constants.APP_BAR_DRAWER_ICON_SIZE,
               semanticLabel:
                   Constants.APP_BAR_DRAWER_LIST_TILE_THREE_SEMANTIC_LABEL,
             ),
-            title: Text(Constants.APP_BAR_DRAWER_LIST_TILE_THREE,
-                style: TextStyle(color: Colors.pink)),
+            title: Text(
+              Constants.APP_BAR_DRAWER_LIST_TILE_THREE,
+              style: TextStyle(
+                color: Constants.ICON_AND_APP_BAR_TEXT_COLOR,
+                fontFamily: Constants.HEADER_FONT_FAMILY,
+                fontSize: Constants.DRAWER_FONT_SIZE,
+              ),
+            ),
             onTap: () {
               Navigator.pop(context);
               Navigator.push(
@@ -80,16 +94,22 @@ class NavBarComponent extends StatelessWidget {
             },
           ),
           ListTile(
-            tileColor: Colors.amber[200],
+            tileColor: Constants.APP_BAR_DRAWER_LIST_TILE_FOUR_COLOR,
             leading: Icon(
               Icons.email,
-              color: Colors.pink,
+              color: Constants.ICON_AND_APP_BAR_TEXT_COLOR,
               size: Constants.APP_BAR_DRAWER_ICON_SIZE,
               semanticLabel:
                   Constants.APP_BAR_DRAWER_LIST_TILE_FOUR_SEMANTIC_LABEL,
             ),
-            title: Text(Constants.APP_BAR_DRAWER_LIST_TILE_FOUR,
-                style: TextStyle(color: Colors.pink)),
+            title: Text(
+              Constants.APP_BAR_DRAWER_LIST_TILE_FOUR,
+              style: TextStyle(
+                color: Constants.ICON_AND_APP_BAR_TEXT_COLOR,
+                fontFamily: Constants.HEADER_FONT_FAMILY,
+                fontSize: Constants.DRAWER_FONT_SIZE,
+              ),
+            ),
             onTap: () {
               Navigator.pop(context);
               Navigator.push(

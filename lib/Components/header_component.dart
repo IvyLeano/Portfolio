@@ -17,6 +17,5 @@ class HeaderComponent extends StatelessWidget {
         fontFamily: Constants.HEADER_FONT_FAMILY,
       ),
     );
-    // TODO: add text size and style for headers
   }
 }

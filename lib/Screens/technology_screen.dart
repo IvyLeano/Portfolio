@@ -11,20 +11,20 @@ class TechnologyScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(Constants.APP_BAR_TITLE),
-        backgroundColor: Colors.amber[700],
+        backgroundColor: Constants.DEFAULT_APP_COLOR,
       ),
       drawer: NavBarComponent(),
       body: SingleChildScrollView(
         child: Padding(
           padding: EdgeInsets.fromLTRB(
-              MediaQuery.of(context).size.width * 0.05,
-              MediaQuery.of(context).size.width * 0.04,
-              MediaQuery.of(context).size.width * 0.05,
-              MediaQuery.of(context).size.width * 0.04),
+              MediaQuery.of(context).size.width * Constants.LEFT_RIGHT_PADDING_AS_PERCENTAGE_0F_SCREEN_WIDTH,
+              MediaQuery.of(context).size.width * Constants.TOP_BOTTOM_PADDING_AS_PERCENTAGE_0F_SCREEN_HEIGHT,
+              MediaQuery.of(context).size.width * Constants.LEFT_RIGHT_PADDING_AS_PERCENTAGE_0F_SCREEN_WIDTH,
+              MediaQuery.of(context).size.width * Constants.TOP_BOTTOM_PADDING_AS_PERCENTAGE_0F_SCREEN_HEIGHT),
           child: Container(
             width: MediaQuery.of(context).size.width,
             child: Align(
-              alignment: Alignment.topLeft,
+              alignment: Constants.CONTAINER_ALIGNMENT,
               child: Column(
                 children: <Widget>[
                   HeaderComponent(header: Constants.TECHNOLOGY_HEADER_ONE),

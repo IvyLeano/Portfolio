@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'IvyLeano',
+      title: Constants.TAB_BAR_TITLE,
       theme: ThemeData(
         fontFamily: Constants.DEFAULT_FONT_FAMILY,
         primarySwatch: Colors.blue,
