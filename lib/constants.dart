@@ -1,7 +1,13 @@
+
 class Constants {
 
  // HEADINGS & TITLES
  static const String APP_BAR_TITLE =  "Ivy Leano";
+ static const String HOME_HEADER_ONE = "HOME";   //TODO: update headers
+ static const String PROJECTS_HEADER_ONE = "PROJECTS";
+ static const String TECHNOLOGY_HEADER_ONE = "TECHNOLOGY";
+ static const String EMAIL_HEADER_ONE = "EMAIL";
+
 
  // APP BAR DRAWER MENU OPTIONS
  static const String APP_BAR_DRAWER_LIST_TILE_ONE = "Home";
@@ -9,7 +15,12 @@ class Constants {
  static const String APP_BAR_DRAWER_LIST_TILE_THREE = "Technology";
  static const String APP_BAR_DRAWER_LIST_TILE_FOUR = "Email";
 
- // FONT STYLES
+ static const String APP_BAR_DRAWER_LIST_TILE_ONE_SEMANTIC_LABEL = "About Button";
+ static const String APP_BAR_DRAWER_LIST_TILE_TWO_SEMANTIC_LABEL  = "Personal Projects Button";
+ static const String APP_BAR_DRAWER_LIST_TILE_THREE_SEMANTIC_LABEL  = "Personal Skills Button";
+ static const String APP_BAR_DRAWER_LIST_TILE_FOUR_SEMANTIC_LABEL  = "Contact Information Button";
+
+ // FONTS, STYLES
  static const double APP_BAR_DRAWER_ICON_SIZE = 24;
 
 
