@@ -1,5 +1,5 @@
-import 'package:Portfolio/Components/header_component.dart';
 import 'package:Portfolio/Components/nav_bar_component.dart';
+import 'package:Portfolio/Components/title_component.dart';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -28,13 +28,9 @@ class HomeScreen extends StatelessWidget {
                   Constants.TOP_BOTTOM_PADDING_AS_PERCENTAGE_0F_SCREEN_HEIGHT),
           child: Container(
             width: MediaQuery.of(context).size.width,
-            child: Align(
-              alignment: Constants.CONTAINER_ALIGNMENT,
-              child: Column(
-                children: <Widget>[
-                  HeaderComponent(header: Constants.HOME_SUMMARY),
-                ],
-              ),
+            child: Column(
+              children: <Widget>[
+              ],
             ),
           ),
         ),

@@ -17,19 +17,20 @@ class ProjectsScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Padding(
           padding: EdgeInsets.fromLTRB(
-              MediaQuery.of(context).size.width * Constants.LEFT_RIGHT_PADDING_AS_PERCENTAGE_0F_SCREEN_WIDTH,
-              MediaQuery.of(context).size.width * Constants.TOP_BOTTOM_PADDING_AS_PERCENTAGE_0F_SCREEN_HEIGHT,
-              MediaQuery.of(context).size.width * Constants.LEFT_RIGHT_PADDING_AS_PERCENTAGE_0F_SCREEN_WIDTH,
-              MediaQuery.of(context).size.width * Constants.TOP_BOTTOM_PADDING_AS_PERCENTAGE_0F_SCREEN_HEIGHT),
+              MediaQuery.of(context).size.width *
+                  Constants.LEFT_RIGHT_PADDING_AS_PERCENTAGE_0F_SCREEN_WIDTH,
+              MediaQuery.of(context).size.width *
+                  Constants.TOP_BOTTOM_PADDING_AS_PERCENTAGE_0F_SCREEN_HEIGHT,
+              MediaQuery.of(context).size.width *
+                  Constants.LEFT_RIGHT_PADDING_AS_PERCENTAGE_0F_SCREEN_WIDTH,
+              MediaQuery.of(context).size.width *
+                  Constants.TOP_BOTTOM_PADDING_AS_PERCENTAGE_0F_SCREEN_HEIGHT),
           child: Container(
             width: MediaQuery.of(context).size.width,
-            child: Align(
-              alignment: Constants.CONTAINER_ALIGNMENT,
-              child: Column(
-                children: <Widget>[
-                  HeaderComponent(header: Constants.PROJECTS_HEADER_ONE),
-                ],
-              ),
+            child: Column(
+              children: <Widget>[
+                HeaderComponent(header: Constants.PROJECTS_HEADER_ONE),
+              ],
             ),
           ),
         ),

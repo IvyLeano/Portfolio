@@ -8,6 +8,9 @@ class Constants { // TODO: update descriptions and titles, and tab icon
  static const String APP_BAR_TITLE =  "Portfolio";
 
  // 1.2. HOME PAGE
+ static const String HOME_NAME = "Ivy Leano ";
+ static const String HOME_OCCUPATION = "Mobile Application Developer ";
+ static const String HOME_LOCATION = "Toronto, Ontario ";
  static const String HOME_SUMMARY = "About me ....";
  static const String HOME_HEADER_ONE = "Work History";
  static const String HOME_HEADER_TWO = "Education";
@@ -37,9 +40,11 @@ class Constants { // TODO: update descriptions and titles, and tab icon
  // 3. STYLE & FORMATTING
  // 3.1. FONTS - FAMILY & SIZE
  static const String HEADER_FONT_FAMILY = 'Caveat';
+ static const String TITLE_FONT_FAMILY = 'Caveat';
  static const String DEFAULT_FONT_FAMILY = 'Lato';
 
  static const double DRAWER_FONT_SIZE = 20;
+ static const double TITLE_FONT_SIZE = 24;
  static const double HEADER_FONT_SIZE = 22;
  static const double DEFAULT_FONT_SIZE = 21;
 

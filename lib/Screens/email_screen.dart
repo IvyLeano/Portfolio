@@ -27,13 +27,10 @@ class EmailScreen extends StatelessWidget {
                   Constants.TOP_BOTTOM_PADDING_AS_PERCENTAGE_0F_SCREEN_HEIGHT),
           child: Container(
             width: MediaQuery.of(context).size.width,
-            child: Align(
-              alignment: Constants.CONTAINER_ALIGNMENT,
-              child: Column(
-                children: <Widget>[
-                  HeaderComponent(header: Constants.EMAIL_HEADER_ONE),
-                ],
-              ),
+            child: Column(
+              children: <Widget>[
+                HeaderComponent(header: Constants.EMAIL_HEADER_ONE),
+              ],
             ),
           ),
         ),
