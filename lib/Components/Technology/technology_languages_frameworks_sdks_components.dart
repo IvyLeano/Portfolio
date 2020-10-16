@@ -13,7 +13,7 @@ class TechnologyLanguagesFrameworksSdksComponent extends StatelessWidget {
     return Column(
       children: <Widget>[
         HeaderComponent(
-            header: Constants.TECHNOLOGY_HEADER_ONE,
+            header: Constants.TECHNOLOGY_HEADER_TWO,
             fontFamily: Constants.HEADER_FONT_FAMILY,
             fontSize: Constants.HEADER_FONT_SIZE),
         SizedBox(

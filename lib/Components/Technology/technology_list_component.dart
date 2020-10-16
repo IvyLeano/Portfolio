@@ -1,40 +1,28 @@
+import 'package:Portfolio/Screens/home_screen.dart';
+import 'package:Portfolio/Screens/contact_screen.dart';
+import 'package:Portfolio/Screens/projects_screen.dart';
+import 'package:Portfolio/Screens/technology_screen.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../../constants.dart';
+
+
 class TechnologyListComponent extends StatelessWidget {
-  const TechnologyListComponent({Key key});
+  const TechnologyListComponent({Key key, this.list});
+
+  final list;
+
+  Widget createBulletList() {
+    var bulletList;
+    for(int i = 0; i < list.length(); i++) { //TODO: change this for loop to for each, just add bullet icon to string array
+
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: <Widget>[
-        ListView(
-          // This next line does the trick.
-          scrollDirection: Axis.horizontal,
-          children: <Widget>[
-            Container(
-              width: 160.0,
-              color: Colors.red,
-            ),
-            Container(
-              width: 160.0,
-              color: Colors.blue,
-            ),
-            Container(
-              width: 160.0,
-              color: Colors.green,
-            ),
-            Container(
-              width: 160.0,
-              color: Colors.yellow,
-            ),
-            Container(
-              width: 160.0,
-              color: Colors.orange,
-            ),
-          ],
-        ),
-      ],
-    );
+    return createBulletList();
   }
 }

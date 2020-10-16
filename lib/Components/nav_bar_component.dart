@@ -9,6 +9,8 @@ import 'package:flutter/material.dart';
 import '../constants.dart';
 
 class NavBarComponent extends StatelessWidget {
+  const NavBarComponent({Key key});
+
   @override
   Widget build(BuildContext context) {
     return Drawer(

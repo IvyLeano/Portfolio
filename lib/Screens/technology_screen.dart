@@ -30,7 +30,7 @@ class TechnologyScreen extends StatelessWidget {
                   Constants.LEFT_RIGHT_PADDING_AS_PERCENTAGE_0F_SCREEN_WIDTH,
               MediaQuery.of(context).size.width *
                   Constants.TOP_BOTTOM_PADDING_AS_PERCENTAGE_0F_SCREEN_HEIGHT),
-          child: Column(
+            child: Column(
             children: <Widget>[
               HeaderComponent(
                   header: Constants.TECHNOLOGY_HEADER_TITLE,
@@ -42,13 +42,14 @@ class TechnologyScreen extends StatelessWidget {
                         .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_TITLE,
               ),
               TechnologyIdesEditorsComponent(),
+              TechnologyListComponent(),
               TechnologyLanguagesFrameworksSdksComponent(),
               TechnologyToolsComponent(),
               TechnologyConceptsComponent(),
             ],
           ),
+          ),
         ),
-      ),
     );
   }
 }
