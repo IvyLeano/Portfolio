@@ -27,10 +27,23 @@ class Constants {
   static const String PROJECTS_HEADER_ONE = "PROJECTS";
 
   // 1.4. TECHNOLOGY PAGE
-  static const String TECHNOLOGY_HEADER_ONE = "TECHNOLOGY";
+  static const String TECHNOLOGY_HEADER_TITLE = "Technology";
+
+  static const String TECHNOLOGY_HEADER_ONE = "IDE's & Editors";
+  static const TECHNOLOGY_HEADER_ONE_LIST = ['Android Studio', 'Eclipse', 'Visual Studio', 'IntelliJ', 'XCode'];
+
+  static const String TECHNOLOGY_HEADER_TWO = "Languages, Frameworks & SDKs";
+  static const TECHNOLOGY_HEADER_TWO_LIST = ['JAVA', 'C', 'C++', 'Objective-C', 'Dart', 'Swift', 'JavaScript', 'Spring Boot', 'Flutter'];
+
+  static const String TECHNOLOGY_HEADER_THREE = "Tools";
+  static const TECHNOLOGY_HEADER_THREE_LIST = ['Trello', 'Git Version Control'];
+
+  static const String TECHNOLOGY_HEADER_FOUR = "Concepts";
+  static const TECHNOLOGY_HEADER_FOUR_LIST = ['Object Oriented Programming', 'Agile Workflow'];
 
   // 1.5. CONTACT PAGE
   static const String CONTACT_TITLE = "Contact Information & More";
+
   static const String CONTACT_HEADER_ONE = "Email Address";
   static const String CONTACT_HEADER_ONE_DESCRIPTION = "ivy.leano@outlook.com";
 
