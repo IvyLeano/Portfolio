@@ -1,5 +1,5 @@
 import 'package:Portfolio/Screens/home_screen.dart';
-import 'package:Portfolio/Screens/email_screen.dart';
+import 'package:Portfolio/Screens/contact_screen.dart';
 import 'package:Portfolio/Screens/projects_screen.dart';
 import 'package:Portfolio/Screens/technology_screen.dart';
 
@@ -114,7 +114,7 @@ class NavBarComponent extends StatelessWidget {
               Navigator.pop(context);
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => EmailScreen()),
+                MaterialPageRoute(builder: (context) => ContactScreen()),
               );
             },
           ),

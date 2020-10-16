@@ -29,15 +29,25 @@ class Constants {
   // 1.4. TECHNOLOGY PAGE
   static const String TECHNOLOGY_HEADER_ONE = "TECHNOLOGY";
 
-  // 1.5. EMAIL PAGE
-  static const String EMAIL_HEADER_ONE = "EMAIL";
+  // 1.5. CONTACT PAGE
+  static const String CONTACT_TITLE = "Contact Information & More";
+  static const String CONTACT_HEADER_ONE = "Email Address";
+  static const String CONTACT_HEADER_ONE_DESCRIPTION = "ivy.leano@outlook.com";
+
+  static const String CONTACT_HEADER_TWO = "LinkedIn";
+  static const String CONTACT_HEADER_TWO_LABEL = "@Ivy Leano";
+  static const String CONTACT_HEADER_TWO_DESCRIPTION = "www.example.com";
+
+  static const String CONTACT_HEADER_THREE = "GitHub";
+  static const String CONTACT_HEADER_THREE_LABEL = "@IvyLeano";
+  static const String CONTACT_HEADER_THREE_DESCRIPTION = "www.example.com";
 
   // 2. APP BAR DRAWER
   // 2.1. MENU OPTIONS
   static const String APP_BAR_DRAWER_LIST_TILE_ONE = "Home";
   static const String APP_BAR_DRAWER_LIST_TILE_TWO = "Projects";
   static const String APP_BAR_DRAWER_LIST_TILE_THREE = "Technology";
-  static const String APP_BAR_DRAWER_LIST_TILE_FOUR = "Email";
+  static const String APP_BAR_DRAWER_LIST_TILE_FOUR = "Contact";
 
   // 2.2. MENU OPTIONS - SEMANTIC LABELS
   static const String APP_BAR_DRAWER_LIST_TILE_ONE_SEMANTIC_LABEL =

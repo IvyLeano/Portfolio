@@ -1,3 +1,7 @@
+import 'package:Portfolio/Components/Contact/contact_email_component.dart';
+import 'package:Portfolio/Components/Contact/contact_github_component.dart';
+import 'package:Portfolio/Components/Contact/contact_linkedin_component.dart';
+import 'package:Portfolio/Components/description_component.dart';
 import 'package:Portfolio/Components/header_component.dart';
 import 'package:Portfolio/Components/nav_bar_component.dart';
 import 'package:flutter/cupertino.dart';
@@ -5,7 +9,7 @@ import 'package:flutter/material.dart';
 
 import '../constants.dart';
 
-class EmailScreen extends StatelessWidget {
+class ContactScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,14 +29,22 @@ class EmailScreen extends StatelessWidget {
                   Constants.LEFT_RIGHT_PADDING_AS_PERCENTAGE_0F_SCREEN_WIDTH,
               MediaQuery.of(context).size.width *
                   Constants.TOP_BOTTOM_PADDING_AS_PERCENTAGE_0F_SCREEN_HEIGHT),
-          child: Container(
-            width: MediaQuery.of(context).size.width,
             child: Column(
               children: <Widget>[
-                HeaderComponent(header: Constants.EMAIL_HEADER_ONE),
+                HeaderComponent(
+                    header: Constants.CONTACT_TITLE,
+                    fontFamily: Constants.TITLE_FONT_FAMILY,
+                    fontSize: Constants.TITLE_FONT_SIZE),
+                SizedBox(
+                  height: MediaQuery.of(context).size.height *
+                      Constants
+                          .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_TITLE,
+                ),
+                ContactEmailComponent(),
+                ContactLinkedinComponent(),
+                ContactGithubComponent(),
               ],
             ),
-          ),
         ),
       ),
     );
