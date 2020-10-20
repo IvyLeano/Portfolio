@@ -42,7 +42,7 @@ class TechnologyScreen extends StatelessWidget {
                         .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_TITLE,
               ),
               TechnologyIdesEditorsComponent(),
-              TechnologyListComponent(),
+              //TechnologyListComponent(list: Constants.TECHNOLOGY_HEADER_ONE_LIST),
               TechnologyLanguagesFrameworksSdksComponent(),
               TechnologyToolsComponent(),
               TechnologyConceptsComponent(),

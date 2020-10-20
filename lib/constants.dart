@@ -13,15 +13,31 @@ class Constants {
   static const String HOME_OCCUPATION = "Mobile Application Developer ";
   static const String HOME_LOCATION = "Toronto, Ontario ";
   static const String HOME_SUMMARY =
-      "Hello World! I am a mobile application developer based in Toronto, Ontario Canada. Currently seeking a remote position.";
+      "Hello World! I am a recent graduate with work experience developing mobile applications for Android and iOS devices. Seeking opportunities to develop current knowledge of programming methodologies and practices. ";
 
   static const String HOME_HEADER_ONE = "Work History";
-  static const String HOME_HEADER_ONE_LABEL = "company | occupation | date";
-  static const String HOME_HEADER_ONE_DESCRIPTION = "description";
+  static const String HOME_HEADER_ONE_LABEL =
+      "CIBC | Software Developer | January 2020 - August 2020";
+  static const String HOME_HEADER_ONE_WORK_ROLE_ONE = "1. iOS Team | January - February";
+  static const HOME_HEADER_ONE_WORK_ROLE_ONE_POINTS = [
+    'o Contributed to the maintenance of CIBC’s mobile banking application for iOS devices',
+    'o Assisted in troubleshooting and debugging UI related bugs',
+    'o Programming: Swift, CocoaPods, Objective-C',
+  ];
+  static const String HOME_HEADER_ONE_WORK_ROLE_TWO =
+      "2. Live Labs Innovation Team | February - August";
+  static const HOME_HEADER_ONE_WORK_ROLE_TWO_POINTS = [
+    'o Collaborated with product owners and the development team to suggest new mobile banking features and products',
+    'o Developed mobile applications for iOS and Android devices related to mobile banking',
+    'o Utilized Spring Boot to build a streamlined API wrapper for use in existing and future projects',
+    'o Built extensions for the current iOS mobile application',
+    'o Created a front-end flutter application',
+    'o Programming: Java, Kotlin, Swift, Objective-C, CocoaPods, Flutter, Dart',
+  ];
 
   static const String HOME_HEADER_TWO = "Education";
-  static const String HOME_HEADER_TWO_LABEL = "institition | degree | date";
-  static const String HOME_HEADER_TWO_DESCRIPTION = "education";
+  static const String HOME_HEADER_TWO_LABEL =
+      "Seneca College | Computer Programming Diploma | May 2018 - August 2019";
 
   // 1.3. PROJECTS PAGE
   static const String PROJECTS_HEADER_ONE = "PROJECTS";
@@ -30,16 +46,35 @@ class Constants {
   static const String TECHNOLOGY_HEADER_TITLE = "Technology";
 
   static const String TECHNOLOGY_HEADER_ONE = "1) IDE's & Editors";
-  static const TECHNOLOGY_HEADER_ONE_LIST = ['Android Studio', 'Eclipse', 'Visual Studio', 'IntelliJ', 'XCode'];
+  static const TECHNOLOGY_HEADER_ONE_LIST = [
+    'Android Studio',
+    'Eclipse',
+    'Visual Studio',
+    'IntelliJ',
+    'XCode'
+  ];
 
   static const String TECHNOLOGY_HEADER_TWO = "2) Languages, Frameworks & SDKs";
-  static const TECHNOLOGY_HEADER_TWO_LIST = ['JAVA', 'C', 'C++', 'Objective-C', 'Dart', 'Swift', 'JavaScript', 'Spring Boot', 'Flutter'];
+  static const TECHNOLOGY_HEADER_TWO_LIST = [
+    'JAVA',
+    'C',
+    'C++',
+    'Objective-C',
+    'Dart',
+    'Swift',
+    'JavaScript',
+    'Spring Boot',
+    'Flutter'
+  ];
 
   static const String TECHNOLOGY_HEADER_THREE = "3) Tools";
   static const TECHNOLOGY_HEADER_THREE_LIST = ['Trello', 'Git Version Control'];
 
   static const String TECHNOLOGY_HEADER_FOUR = "4) Concepts";
-  static const TECHNOLOGY_HEADER_FOUR_LIST = ['Object Oriented Programming', 'Agile Workflow'];
+  static const TECHNOLOGY_HEADER_FOUR_LIST = [
+    'Object Oriented Programming',
+    'Agile Workflow'
+  ];
 
   // 1.5. CONTACT PAGE
   static const String CONTACT_TITLE = "Contact Information & More";
@@ -79,16 +114,18 @@ class Constants {
   static const String DEFAULT_FONT_FAMILY = 'Lato';
 
   static const double DRAWER_FONT_SIZE = 20;
-  static const double TITLE_FONT_SIZE = 24;
-  static const double HEADER_FONT_SIZE = 22;
+  static const double TITLE_FONT_SIZE = 28;
+  static const double HEADER_FONT_SIZE = 24;
   static const double DEFAULT_FONT_SIZE = 19;
 
   static const double DESCRIPTION_LETTER_SPACING = 2;
+  static const double DESCRIPTION_HEIGHT_SPACING = 2;
   static const double HEADER_LETTER_SPACING = 2;
 
   // 3.2. CONTENT CONTAINER - PADDING, ALIGNMENT, SPACING
   static const double LEFT_RIGHT_PADDING_AS_PERCENTAGE_0F_SCREEN_WIDTH = 0.05;
   static const double TOP_BOTTOM_PADDING_AS_PERCENTAGE_0F_SCREEN_HEIGHT = 0.04;
+  static const double BULLET_POINT_INDENT_AS_PERCENTAGE_0F_SCREEN_WIDTH = 0.03;
   static const Alignment CONTAINER_ALIGNMENT = Alignment.topLeft;
 
   // SPACING - SIZED BOX
@@ -101,9 +138,7 @@ class Constants {
   static const double
       SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_DESCRIPTION = 0.02;
   static const double
-  SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_HOME_SUMMARY = 0.03;
-
-
+      SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_HOME_SUMMARY = 0.03;
 
   // 3.3. COLOR PALETTE
   static Color DEFAULT_APP_COLOR = Colors.amber[700];

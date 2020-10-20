@@ -1,3 +1,4 @@
+import 'package:Portfolio/Components/Home/home_work_history_bullet_points_component.dart';
 import 'package:Portfolio/constants.dart';
 import 'package:flutter/cupertino.dart';
 
@@ -27,16 +28,47 @@ class HomeWorkHistoryComponent extends StatelessWidget {
         SizedBox(
           height: MediaQuery.of(context).size.height *
               Constants
-                  .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_LABEL,
+                  .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_HEADING,
         ),
-        DescriptionComponent(
-            description: Constants.HOME_HEADER_ONE_DESCRIPTION,
-            fontFamily: Constants.DEFAULT_FONT_FAMILY,
-            fontSize: Constants.DEFAULT_FONT_SIZE),
-        SizedBox(
-          height: MediaQuery.of(context).size.height *
-              Constants
-                  .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_DESCRIPTION,
+        Padding(
+          padding: EdgeInsets.fromLTRB(MediaQuery.of(context).size.height *
+              Constants.BULLET_POINT_INDENT_AS_PERCENTAGE_0F_SCREEN_WIDTH, 0.0, 0.0, 0.0),
+          child: Column(
+            children: <Widget>[
+              DescriptionComponent(
+                  description: Constants.HOME_HEADER_ONE_WORK_ROLE_ONE,
+                  fontFamily: Constants.DEFAULT_FONT_FAMILY,
+                  fontSize: Constants.DEFAULT_FONT_SIZE),
+              SizedBox(
+                height: MediaQuery.of(context).size.height *
+                    Constants
+                        .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_DESCRIPTION,
+              ),
+              HomeWorkHistoryBulletPointsComponent(
+                  list: Constants.HOME_HEADER_ONE_WORK_ROLE_ONE_POINTS),
+              SizedBox(
+                height: MediaQuery.of(context).size.height *
+                    Constants
+                        .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_HEADING,
+              ),
+              DescriptionComponent(
+                  description: Constants.HOME_HEADER_ONE_WORK_ROLE_TWO,
+                  fontFamily: Constants.DEFAULT_FONT_FAMILY,
+                  fontSize: Constants.DEFAULT_FONT_SIZE),
+              SizedBox(
+                height: MediaQuery.of(context).size.height *
+                    Constants
+                        .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_DESCRIPTION,
+              ),
+              HomeWorkHistoryBulletPointsComponent(
+                  list: Constants.HOME_HEADER_ONE_WORK_ROLE_TWO_POINTS),
+              SizedBox(
+                height: MediaQuery.of(context).size.height *
+                    Constants
+                        .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_DESCRIPTION,
+              ),
+            ],
+          ),
         ),
       ],
     );

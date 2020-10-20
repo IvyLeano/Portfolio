@@ -21,6 +21,7 @@ class DescriptionComponent extends StatelessWidget {
           fontSize: fontSize,
           fontFamily: fontFamily, // TODO: add a text fallback font
           letterSpacing: Constants.DESCRIPTION_LETTER_SPACING,
+          height: Constants.DESCRIPTION_HEIGHT_SPACING,
         ),
       ),
     );
