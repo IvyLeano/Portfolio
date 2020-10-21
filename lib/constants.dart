@@ -18,7 +18,8 @@ class Constants {
   static const String HOME_HEADER_ONE = "Work History";
   static const String HOME_HEADER_ONE_LABEL =
       "CIBC | Software Developer | January 2020 - August 2020";
-  static const String HOME_HEADER_ONE_WORK_ROLE_ONE = "1. iOS Team | January - February";
+  static const String HOME_HEADER_ONE_WORK_ROLE_ONE =
+      "1. iOS Team | January - February";
   static const HOME_HEADER_ONE_WORK_ROLE_ONE_POINTS = [
     'o Contributed to the maintenance of CIBC’s mobile banking application for iOS devices',
     'o Assisted in troubleshooting and debugging UI related bugs',
@@ -40,7 +41,25 @@ class Constants {
       "Seneca College | Computer Programming Diploma | May 2018 - August 2019";
 
   // 1.3. PROJECTS PAGE
-  static const String PROJECTS_HEADER_ONE = "PROJECTS";
+  static const String PROJECTS_HEADER_ONE = "Projects";
+  static const String PROJECTS_HEADER_ONE_PROJECT_ONE =
+      "1. Portfolio Website – In Progress | Individual Project |October 2020 – Current";
+  static const PROJECTS_HEADER_ONE_PROJECT_ONE_POINTS = [
+    'o This website is a flutter-based application built for web and mobile platforms!',
+    'o Front-end: Spring Boot, Flutter, Firebase',
+  ];
+  static const String PROJECTS_HEADER_ONE_PROJECT_TWO =
+      "2. RestfulNewsApi – Complete | Individual Project | August 2020 – October 2020";
+  static const PROJECTS_HEADER_ONE_PROJECT_TWO_POINTS = [
+    'o News feed application built for web and mobile platforms',
+    'o Front-end: Dart, Flutter, Firebase',
+    'o Back-end: Java, Spring Boot, Heroku',
+  ];
+
+  static const PROJECTS_HEADER_ONE_PROJECT_LINKS = [
+    'o Code available here',
+    'https://github.com/IvyLeano/RestfulNewsAPI'
+  ];
 
   // 1.4. TECHNOLOGY PAGE
   static const String TECHNOLOGY_HEADER_TITLE = "Technology";
@@ -146,6 +165,7 @@ class Constants {
   static Color APP_BAR_DRAWER_LIST_TILE_TWO_COLOR = Colors.amber[400];
   static Color APP_BAR_DRAWER_LIST_TILE_THREE_COLOR = Colors.amber[300];
   static Color APP_BAR_DRAWER_LIST_TILE_FOUR_COLOR = Colors.amber[200];
+  static Color HYPER_LINK_COLOR = Colors.amber[50];
 
   // 3.4. ICONS - COLOR & SIZE
   static Color ICON_AND_APP_BAR_TEXT_COLOR = Colors.pink;

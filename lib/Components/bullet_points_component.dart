@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 
-import '../../constants.dart';
-import '../description_component.dart';
+import '../constants.dart';
+import 'description_component.dart';
 
-class HomeWorkHistoryBulletPointsComponent extends StatelessWidget {
-  const HomeWorkHistoryBulletPointsComponent({Key key, this.list});
+class BulletPointsComponent extends StatelessWidget {
+  const BulletPointsComponent({Key key, this.list});
 
   final list;
 
