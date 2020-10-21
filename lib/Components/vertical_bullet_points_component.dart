@@ -3,12 +3,12 @@ import 'package:flutter/cupertino.dart';
 import '../constants.dart';
 import 'description_component.dart';
 
-class BulletPointsComponent extends StatelessWidget {
-  const BulletPointsComponent({Key key, this.list});
+class VerticalBulletPointsComponent extends StatelessWidget {
+  const VerticalBulletPointsComponent({Key key, this.list});
 
   final list;
 
-  Widget getWorkHistoryBulletPoints(BuildContext context) {
+  Widget getBulletPoints(BuildContext context) {
     List<Widget> bulletPoints = new List<Widget>();
 
     for (int i = 0; i < list.length; i++) {
@@ -35,6 +35,6 @@ class BulletPointsComponent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return getWorkHistoryBulletPoints(context);
+    return getBulletPoints(context);
   }
 }

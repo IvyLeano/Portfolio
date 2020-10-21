@@ -1,4 +1,4 @@
-import 'package:Portfolio/Components/bullet_points_component.dart';
+import 'package:Portfolio/Components/vertical_bullet_points_component.dart';
 import 'package:Portfolio/constants.dart';
 import 'package:flutter/cupertino.dart';
 
@@ -48,7 +48,7 @@ class HomeWorkHistoryComponent extends StatelessWidget {
                     Constants
                         .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_DESCRIPTION,
               ),
-              BulletPointsComponent(
+              VerticalBulletPointsComponent(
                   list: Constants.HOME_HEADER_ONE_WORK_ROLE_ONE_POINTS),
               SizedBox(
                 height: MediaQuery.of(context).size.height *
@@ -64,7 +64,7 @@ class HomeWorkHistoryComponent extends StatelessWidget {
                     Constants
                         .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_DESCRIPTION,
               ),
-              BulletPointsComponent(
+              VerticalBulletPointsComponent(
                   list: Constants.HOME_HEADER_ONE_WORK_ROLE_TWO_POINTS),
               SizedBox(
                 height: MediaQuery.of(context).size.height *

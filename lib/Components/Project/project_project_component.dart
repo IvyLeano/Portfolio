@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 import '../../constants.dart';
-import '../bullet_points_component.dart';
+import '../vertical_bullet_points_component.dart';
 import '../header_component.dart';
 
 class ProjectProjectComponent extends StatelessWidget {
@@ -22,7 +22,7 @@ class ProjectProjectComponent extends StatelessWidget {
             Constants
                 .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_HEADING,
       ),
-      BulletPointsComponent(list: list),
+      VerticalBulletPointsComponent(list: list),
     ]);
   }
 }

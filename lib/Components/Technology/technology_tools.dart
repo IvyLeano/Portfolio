@@ -1,9 +1,9 @@
-import 'package:Portfolio/Components/Technology/technology_list_component.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants.dart';
 import '../header_component.dart';
+import '../vertical_bullet_points_component.dart';
 
 class TechnologyToolsComponent extends StatelessWidget {
   const TechnologyToolsComponent({Key key});
@@ -21,12 +21,12 @@ class TechnologyToolsComponent extends StatelessWidget {
               Constants
                   .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_HEADING,
         ),
+        VerticalBulletPointsComponent(list: Constants.TECHNOLOGY_HEADER_THREE_LIST),
         SizedBox(
           height: MediaQuery.of(context).size.height *
               Constants
                   .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_HEADING,
         ),
-//        TechnologyListComponent(),
       ],
     );
   }

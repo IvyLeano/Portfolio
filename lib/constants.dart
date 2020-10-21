@@ -48,6 +48,7 @@ class Constants {
     'o This website is a flutter-based application built for web and mobile platforms!',
     'o Front-end: Spring Boot, Flutter, Firebase',
   ];
+
   static const String PROJECTS_HEADER_ONE_PROJECT_TWO =
       "2. RestfulNewsApi – Complete | Individual Project | August 2020 – October 2020";
   static const PROJECTS_HEADER_ONE_PROJECT_TWO_POINTS = [
@@ -66,33 +67,34 @@ class Constants {
 
   static const String TECHNOLOGY_HEADER_ONE = "1) IDE's & Editors";
   static const TECHNOLOGY_HEADER_ONE_LIST = [
-    'Android Studio',
-    'Eclipse',
-    'Visual Studio',
-    'IntelliJ',
-    'XCode'
+    'o Android Studio',
+    'o Eclipse',
+    'o Visual Studio',
+    'o IntelliJ',
+    'o XCode'
   ];
+
 
   static const String TECHNOLOGY_HEADER_TWO = "2) Languages, Frameworks & SDKs";
   static const TECHNOLOGY_HEADER_TWO_LIST = [
-    'JAVA',
-    'C',
-    'C++',
-    'Objective-C',
-    'Dart',
-    'Swift',
-    'JavaScript',
-    'Spring Boot',
-    'Flutter'
+    'o JAVA',
+    'o C',
+    'o C++',
+    'o Objective-C',
+    'o Dart',
+    'o Swift',
+    'o JavaScript',
+    'o Spring Boot',
+    'o Flutter'
   ];
 
   static const String TECHNOLOGY_HEADER_THREE = "3) Tools";
-  static const TECHNOLOGY_HEADER_THREE_LIST = ['Trello', 'Git Version Control'];
+  static const TECHNOLOGY_HEADER_THREE_LIST = ['o Trello', 'o Git Version Control'];
 
   static const String TECHNOLOGY_HEADER_FOUR = "4) Concepts";
   static const TECHNOLOGY_HEADER_FOUR_LIST = [
-    'Object Oriented Programming',
-    'Agile Workflow'
+    'o Object Oriented Programming',
+    'o Agile Workflow'
   ];
 
   // 1.5. CONTACT PAGE
