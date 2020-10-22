@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 
 import '../../constants.dart';
 import '../text_component.dart';
-import '../vertical_bullet_points_component.dart';
 
 class TechnologyToolsComponent extends StatelessWidget {
   const TechnologyToolsComponent({Key key});
@@ -23,8 +22,16 @@ class TechnologyToolsComponent extends StatelessWidget {
               Constants
                   .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_HEADING,
         ),
-        VerticalBulletPointsComponent(
-            list: Constants.TECHNOLOGY_HEADER_THREE_LIST),
+        Padding(
+          padding: EdgeInsets.fromLTRB(
+              MediaQuery.of(context).size.width *
+                  Constants.BULLET_POINT_INDENT_AS_PERCENTAGE_0F_SCREEN_WIDTH,
+              0.0, 0.0, 0.0),
+          child: TextComponent(
+              text: Constants.TECHNOLOGY_HEADER_THREE_LIST,
+              fontFamily: Constants.DEFAULT_FONT_FAMILY,
+              fontSize: Constants.DEFAULT_FONT_SIZE),
+        ),
         SizedBox(
           height: MediaQuery.of(context).size.height *
               Constants

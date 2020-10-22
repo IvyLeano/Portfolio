@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class Constants {
-
   // 1. HEADINGS, TITLES & DESCRIPTIONS
   // 1.1. GENERAL
   static const String TAB_BAR_TITLE = "IvyLeano";
@@ -65,35 +64,20 @@ class Constants {
   static const String TECHNOLOGY_HEADER_TITLE = "Technology ";
 
   static const String TECHNOLOGY_HEADER_ONE = "1) IDE's and Editors ";
-  static const TECHNOLOGY_HEADER_ONE_LIST = [
-    'o Android Studio',
-    'o Eclipse',
-    'o Visual Studio',
-    'o IntelliJ',
-    'o XCode'
-  ];
+  static const String TECHNOLOGY_HEADER_ONE_LIST =
+      'Android Studio, Eclipse, Visual Studio, IntelliJ, XCode ';
 
-  static const String TECHNOLOGY_HEADER_TWO = "2) Languages, Frameworks and SDKs ";
-  static const TECHNOLOGY_HEADER_TWO_LIST = [
-    'o JAVA',
-    'o C',
-    'o C++',
-    'o Objective-C',
-    'o Dart',
-    'o Swift',
-    'o JavaScript',
-    'o Spring Boot',
-    'o Flutter'
-  ];
+  static const String TECHNOLOGY_HEADER_TWO =
+      "2) Languages, Frameworks and SDKs ";
+  static const String TECHNOLOGY_HEADER_TWO_LIST =
+      'JAVA, C, C++, Objective-C, Dart, Swift, JavaScript, Spring Boot, Flutter ';
 
   static const String TECHNOLOGY_HEADER_THREE = "3) Tools ";
-  static const TECHNOLOGY_HEADER_THREE_LIST = ['o Trello', 'o Git Version Control'];
+  static const TECHNOLOGY_HEADER_THREE_LIST = 'Trello, Git Version Control';
 
   static const String TECHNOLOGY_HEADER_FOUR = "4) Concepts ";
-  static const TECHNOLOGY_HEADER_FOUR_LIST = [
-    'o Object Oriented Programming',
-    'o Agile Workflow'
-  ];
+  static const String TECHNOLOGY_HEADER_FOUR_LIST =
+      'Object Oriented Programming, Agile Workflow ';
 
   // 1.5. CONTACT PAGE
   static const String CONTACT_TITLE = "Contact Information ";
@@ -104,11 +88,13 @@ class Constants {
 
   static const String CONTACT_HEADER_TWO = "2. LinkedIn ";
   static const String CONTACT_HEADER_TWO_LABEL = "@Ivy Leano";
-  static const String CONTACT_HEADER_TWO_DESCRIPTION = "https://www.linkedin.com/in/ivy-leano/";
+  static const String CONTACT_HEADER_TWO_DESCRIPTION =
+      "https://www.linkedin.com/in/ivy-leano/";
 
   static const String CONTACT_HEADER_THREE = "3. GitHub ";
   static const String CONTACT_HEADER_THREE_LABEL = "@IvyLeano";
-  static const String CONTACT_HEADER_THREE_DESCRIPTION = "https://github.com/IvyLeano";
+  static const String CONTACT_HEADER_THREE_DESCRIPTION =
+      "https://github.com/IvyLeano";
 
   // 2. APP BAR DRAWER
   // 2.1. MENU OPTIONS
