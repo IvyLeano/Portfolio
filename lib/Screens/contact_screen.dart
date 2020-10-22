@@ -40,8 +40,8 @@ class ContactScreen extends StatelessWidget {
                       Constants
                           .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_TITLE,
                 ),
-                ContactEmailComponent(),
-                ContactLinkedinComponent(),
+                ContactEmailComponent(), //TODO: add icons - email, linkedin, github
+                ContactLinkedinComponent(), //TODO: update readme.md
                 ContactGithubComponent(),
               ],
             ),

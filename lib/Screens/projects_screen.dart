@@ -1,4 +1,5 @@
 import 'package:Portfolio/Components/Project/project_project_component.dart';
+import 'package:Portfolio/Components/description_component.dart';
 import 'package:Portfolio/Components/header_component.dart';
 import 'package:Portfolio/Components/hyper_link_component.dart';
 import 'package:Portfolio/Components/nav_bar_component.dart';
@@ -45,6 +46,11 @@ class ProjectsScreen extends StatelessWidget {
                   header: Constants.PROJECTS_HEADER_ONE_PROJECT_TWO,
                   list: Constants.PROJECTS_HEADER_ONE_PROJECT_TWO_POINTS),
               HyperLinkComponent(
+                  label: DescriptionComponent(
+                      description:
+                          Constants.PROJECTS_HEADER_ONE_PROJECT_LINKS[0],
+                      fontFamily: Constants.DEFAULT_FONT_FAMILY,
+                      fontSize: Constants.DEFAULT_FONT_SIZE),
                   link: Constants.PROJECTS_HEADER_ONE_PROJECT_LINKS[1]),
             ],
           ),

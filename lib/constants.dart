@@ -105,11 +105,11 @@ class Constants {
 
   static const String CONTACT_HEADER_TWO = "LinkedIn";
   static const String CONTACT_HEADER_TWO_LABEL = "@Ivy Leano";
-  static const String CONTACT_HEADER_TWO_DESCRIPTION = "www.example.com";
+  static const String CONTACT_HEADER_TWO_DESCRIPTION = "https://www.linkedin.com/in/ivy-leano/";
 
   static const String CONTACT_HEADER_THREE = "GitHub";
   static const String CONTACT_HEADER_THREE_LABEL = "@IvyLeano";
-  static const String CONTACT_HEADER_THREE_DESCRIPTION = "www.example.com";
+  static const String CONTACT_HEADER_THREE_DESCRIPTION = "https://github.com/IvyLeano";
 
   // 2. APP BAR DRAWER
   // 2.1. MENU OPTIONS

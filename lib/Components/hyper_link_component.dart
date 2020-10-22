@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../constants.dart';
-import 'description_component.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class HyperLinkComponent extends StatelessWidget {
-  const HyperLinkComponent({Key key, this.link});
+  const HyperLinkComponent({Key key, this.label, this.link});
 
+  final label;
   final link;
 
   Widget getProjectBulletPoints(BuildContext context) {
@@ -19,10 +19,7 @@ class HyperLinkComponent extends StatelessWidget {
       child: Column(
         children: <Widget>[
           InkWell(
-              child: DescriptionComponent(
-                  description: Constants.PROJECTS_HEADER_ONE_PROJECT_LINKS[0],
-                  fontFamily: Constants.DEFAULT_FONT_FAMILY,
-                  fontSize: Constants.DEFAULT_FONT_SIZE),
+              child: label,
               onTap: () => launch(link),
               hoverColor: Constants.HYPER_LINK_COLOR),
           SizedBox(
