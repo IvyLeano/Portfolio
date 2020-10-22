@@ -12,7 +12,7 @@ class TextComponent extends StatelessWidget {
   final fontWeight;
 
   @override
-  Widget build(BuildContext context) { // TODO: add a text fallback font
+  Widget build(BuildContext context) {
     return Container(
       alignment: Constants.CONTAINER_ALIGNMENT,
       child: Text(
@@ -21,8 +21,6 @@ class TextComponent extends StatelessWidget {
           fontWeight: fontWeight,
           fontSize: fontSize,
           fontFamily: fontFamily,
-          letterSpacing: Constants.HEADER_LETTER_SPACING,
-          height: Constants.DESCRIPTION_HEIGHT_SPACING,
         ),
       ),
     );

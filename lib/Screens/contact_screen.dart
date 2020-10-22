@@ -38,13 +38,19 @@ class ContactScreen extends StatelessWidget {
                 fontSize: Constants.TITLE_FONT_SIZE,
                 fontWeight: FontWeight.bold,
               ),
+              TextComponent(
+                text: Constants.CONTACT_TITLE_TWO,
+                fontFamily: Constants.TITLE_FONT_FAMILY,
+                fontSize: Constants.TITLE_FONT_SIZE,
+                fontWeight: FontWeight.bold,
+              ),
               SizedBox(
                 height: MediaQuery.of(context).size.height *
                     Constants
                         .SIZED_BOX_HEIGHT_AS_PERCENTAGE_OF_SCREEN_HEIGHT_BELOW_TITLE,
               ),
-              ContactEmailComponent(), //TODO: add icons - email, linkedin, github
-              ContactLinkedinComponent(), //TODO: update readme.md
+              ContactEmailComponent(),
+              ContactLinkedinComponent(),
               ContactGithubComponent(),
             ],
           ),

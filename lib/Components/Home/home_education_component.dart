@@ -11,8 +11,7 @@ class HomeEducationComponent extends StatelessWidget {
     return Column(
       children: <Widget>[
         TextComponent(
-          text: Constants
-              .HOME_HEADER_TWO, // TODO: "Education" is reading like "Educatio" on web only
+          text: Constants.HOME_HEADER_TWO,
           fontFamily: Constants.HEADER_FONT_FAMILY,
           fontSize: Constants.HEADER_FONT_SIZE,
           fontWeight: FontWeight.bold,

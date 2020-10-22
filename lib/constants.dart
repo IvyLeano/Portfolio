@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Constants {   // TODO: update tab icon
+class Constants {
 
   // 1. HEADINGS, TITLES & DESCRIPTIONS
   // 1.1. GENERAL
@@ -14,7 +14,7 @@ class Constants {   // TODO: update tab icon
   static const String HOME_SUMMARY =
       "Hello World! I am a recent graduate with work experience developing mobile applications for Android and iOS devices. Seeking opportunities to develop current knowledge of programming methodologies and practices. ";
 
-  static const String HOME_HEADER_ONE = "1. Work History";
+  static const String HOME_HEADER_ONE = "1. Work History ";
   static const String HOME_HEADER_ONE_LABEL =
       "CIBC | Software Developer | January 2020 - August 2020";
   static const String HOME_HEADER_ONE_WORK_ROLE_ONE =
@@ -25,7 +25,7 @@ class Constants {   // TODO: update tab icon
     'o Programming: Swift, CocoaPods, Objective-C',
   ];
   static const String HOME_HEADER_ONE_WORK_ROLE_TWO =
-      "2. Live Labs Innovation Team | February - August";
+      "2. Live Labs Innovation Team | February - August ";
   static const HOME_HEADER_ONE_WORK_ROLE_TWO_POINTS = [
     'o Collaborated with product owners and the development team to suggest new mobile banking features and products',
     'o Developed mobile applications for iOS and Android devices related to mobile banking',
@@ -40,16 +40,16 @@ class Constants {   // TODO: update tab icon
       "Seneca College | Computer Programming Diploma | Completed in 2019";
 
   // 1.3. PROJECTS PAGE
-  static const String PROJECTS_HEADER_ONE = "Projects";
+  static const String PROJECTS_HEADER_ONE = "Projects ";
   static const String PROJECTS_HEADER_ONE_PROJECT_ONE =
-      "1. Portfolio Website – In Progress | Individual Project |October 2020 – Current";
+      "1. Portfolio Website – In Progress | Individual Project |October 2020 – Current ";
   static const PROJECTS_HEADER_ONE_PROJECT_ONE_POINTS = [
     'o This website is a flutter-based application built for web and mobile platforms!',
     'o Front-end: Spring Boot, Flutter, Firebase',
   ];
 
   static const String PROJECTS_HEADER_ONE_PROJECT_TWO =
-      "2. RestfulNewsApi – Complete | Individual Project | August 2020 – October 2020";
+      "2. RestfulNewsApi – Complete | Individual Project | August 2020 – October 2020 ";
   static const PROJECTS_HEADER_ONE_PROJECT_TWO_POINTS = [
     'o News feed application built for web and mobile platforms',
     'o Front-end: Dart, Flutter, Firebase',
@@ -62,9 +62,9 @@ class Constants {   // TODO: update tab icon
   ];
 
   // 1.4. TECHNOLOGY PAGE
-  static const String TECHNOLOGY_HEADER_TITLE = "Technology";
+  static const String TECHNOLOGY_HEADER_TITLE = "Technology ";
 
-  static const String TECHNOLOGY_HEADER_ONE = "1) IDE's & Editors";
+  static const String TECHNOLOGY_HEADER_ONE = "1) IDE's and Editors ";
   static const TECHNOLOGY_HEADER_ONE_LIST = [
     'o Android Studio',
     'o Eclipse',
@@ -73,7 +73,7 @@ class Constants {   // TODO: update tab icon
     'o XCode'
   ];
 
-  static const String TECHNOLOGY_HEADER_TWO = "2) Languages, Frameworks & SDKs";
+  static const String TECHNOLOGY_HEADER_TWO = "2) Languages, Frameworks and SDKs ";
   static const TECHNOLOGY_HEADER_TWO_LIST = [
     'o JAVA',
     'o C',
@@ -86,26 +86,27 @@ class Constants {   // TODO: update tab icon
     'o Flutter'
   ];
 
-  static const String TECHNOLOGY_HEADER_THREE = "3) Tools";
+  static const String TECHNOLOGY_HEADER_THREE = "3) Tools ";
   static const TECHNOLOGY_HEADER_THREE_LIST = ['o Trello', 'o Git Version Control'];
 
-  static const String TECHNOLOGY_HEADER_FOUR = "4) Concepts";
+  static const String TECHNOLOGY_HEADER_FOUR = "4) Concepts ";
   static const TECHNOLOGY_HEADER_FOUR_LIST = [
     'o Object Oriented Programming',
     'o Agile Workflow'
   ];
 
   // 1.5. CONTACT PAGE
-  static const String CONTACT_TITLE = "Contact Information & More";
+  static const String CONTACT_TITLE = "Contact Information ";
+  static const String CONTACT_TITLE_TWO = "and More ";
 
-  static const String CONTACT_HEADER_ONE = "1. Email Address";
+  static const String CONTACT_HEADER_ONE = "1. Email Address ";
   static const String CONTACT_HEADER_ONE_DESCRIPTION = "ivy.leano@outlook.com";
 
-  static const String CONTACT_HEADER_TWO = "2. LinkedIn";
+  static const String CONTACT_HEADER_TWO = "2. LinkedIn ";
   static const String CONTACT_HEADER_TWO_LABEL = "@Ivy Leano";
   static const String CONTACT_HEADER_TWO_DESCRIPTION = "https://www.linkedin.com/in/ivy-leano/";
 
-  static const String CONTACT_HEADER_THREE = "3. GitHub";
+  static const String CONTACT_HEADER_THREE = "3. GitHub ";
   static const String CONTACT_HEADER_THREE_LABEL = "@IvyLeano";
   static const String CONTACT_HEADER_THREE_DESCRIPTION = "https://github.com/IvyLeano";
 

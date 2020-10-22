@@ -1,5 +1,6 @@
 import 'package:Portfolio/constants.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 import '../text_component.dart';
 
@@ -10,11 +11,22 @@ class ContactEmailComponent extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        TextComponent(
-          text: Constants.CONTACT_HEADER_ONE,
-          fontFamily: Constants.HEADER_FONT_FAMILY,
-          fontSize: Constants.HEADER_FONT_SIZE,
-          fontWeight: FontWeight.bold,
+        Row(
+          children: <Widget>[
+            TextComponent(
+              text: Constants.CONTACT_HEADER_ONE,
+              fontFamily: Constants.HEADER_FONT_FAMILY,
+              fontSize: Constants.HEADER_FONT_SIZE,
+              fontWeight: FontWeight.bold,
+            ),
+            Icon(
+              Icons.email,
+              color: Constants.ICON_AND_APP_BAR_TEXT_COLOR,
+              size: Constants.APP_BAR_DRAWER_ICON_SIZE,
+              semanticLabel:
+              Constants.APP_BAR_DRAWER_LIST_TILE_ONE_SEMANTIC_LABEL,
+            ),
+          ],
         ),
         SizedBox(
           height: MediaQuery.of(context).size.height *
