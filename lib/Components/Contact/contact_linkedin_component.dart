@@ -1,8 +1,7 @@
 import 'package:Portfolio/constants.dart';
 import 'package:flutter/cupertino.dart';
 
-import '../description_component.dart';
-import '../header_component.dart';
+import '../text_component.dart';
 import '../hyper_link_component.dart';
 
 class ContactLinkedinComponent extends StatelessWidget {
@@ -13,10 +12,12 @@ class ContactLinkedinComponent extends StatelessWidget {
     // TODO: ADD ICONS, on click links
     return Column(
       children: <Widget>[
-        HeaderComponent(
-            header: Constants.CONTACT_HEADER_TWO,
-            fontFamily: Constants.HEADER_FONT_FAMILY,
-            fontSize: Constants.HEADER_FONT_SIZE),
+        TextComponent(
+          text: Constants.CONTACT_HEADER_TWO,
+          fontFamily: Constants.HEADER_FONT_FAMILY,
+          fontSize: Constants.HEADER_FONT_SIZE,
+          fontWeight: FontWeight.bold,
+        ),
         SizedBox(
           height: MediaQuery.of(context).size.height *
               Constants
@@ -26,17 +27,15 @@ class ContactLinkedinComponent extends StatelessWidget {
           padding: EdgeInsets.fromLTRB(
               MediaQuery.of(context).size.width *
                   Constants.BULLET_POINT_INDENT_AS_PERCENTAGE_0F_SCREEN_WIDTH,
-              0.0,
-              0.0,
-              0.0),
-          child: DescriptionComponent(
-              description: Constants.CONTACT_HEADER_TWO_LABEL,
+              0.0, 0.0, 0.0),
+          child: TextComponent(
+              text: Constants.CONTACT_HEADER_TWO_LABEL,
               fontFamily: Constants.DEFAULT_FONT_FAMILY,
               fontSize: Constants.DEFAULT_FONT_SIZE),
         ),
         HyperLinkComponent(
-            label: DescriptionComponent(
-                description: Constants.CONTACT_HEADER_TWO_DESCRIPTION,
+            label: TextComponent(
+                text: Constants.CONTACT_HEADER_TWO_DESCRIPTION,
                 fontFamily: Constants.DEFAULT_FONT_FAMILY,
                 fontSize: Constants.DEFAULT_FONT_SIZE),
             link: Constants.CONTACT_HEADER_TWO_DESCRIPTION),

@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 
-class Constants {
-  // TODO: update descriptions and titles, and tab icon
+class Constants {   // TODO: update tab icon
 
-  // 1. HEADINGS & TITLES & DESCRIPTIONS
+  // 1. HEADINGS, TITLES & DESCRIPTIONS
   // 1.1. GENERAL
   static const String TAB_BAR_TITLE = "IvyLeano";
   static const String APP_BAR_TITLE = "";
@@ -15,14 +14,14 @@ class Constants {
   static const String HOME_SUMMARY =
       "Hello World! I am a recent graduate with work experience developing mobile applications for Android and iOS devices. Seeking opportunities to develop current knowledge of programming methodologies and practices. ";
 
-  static const String HOME_HEADER_ONE = "Work History";
+  static const String HOME_HEADER_ONE = "1. Work History";
   static const String HOME_HEADER_ONE_LABEL =
       "CIBC | Software Developer | January 2020 - August 2020";
   static const String HOME_HEADER_ONE_WORK_ROLE_ONE =
       "1. iOS Team | January - February";
   static const HOME_HEADER_ONE_WORK_ROLE_ONE_POINTS = [
     'o Contributed to the maintenance of CIBC’s mobile banking application for iOS devices',
-    'o Assisted in troubleshooting and debugging UI related bugs',
+    'o Assisted in troubleshooting and debugging of UI related bugs',
     'o Programming: Swift, CocoaPods, Objective-C',
   ];
   static const String HOME_HEADER_ONE_WORK_ROLE_TWO =
@@ -36,9 +35,9 @@ class Constants {
     'o Programming: Java, Kotlin, Swift, Objective-C, CocoaPods, Flutter, Dart',
   ];
 
-  static const String HOME_HEADER_TWO = "Education";
+  static const String HOME_HEADER_TWO = "2. Education";
   static const String HOME_HEADER_TWO_LABEL =
-      "Seneca College | Computer Programming Diploma | May 2018 - August 2019";
+      "Seneca College | Computer Programming Diploma | Completed in 2019";
 
   // 1.3. PROJECTS PAGE
   static const String PROJECTS_HEADER_ONE = "Projects";
@@ -74,7 +73,6 @@ class Constants {
     'o XCode'
   ];
 
-
   static const String TECHNOLOGY_HEADER_TWO = "2) Languages, Frameworks & SDKs";
   static const TECHNOLOGY_HEADER_TWO_LIST = [
     'o JAVA',
@@ -100,14 +98,14 @@ class Constants {
   // 1.5. CONTACT PAGE
   static const String CONTACT_TITLE = "Contact Information & More";
 
-  static const String CONTACT_HEADER_ONE = "Email Address";
+  static const String CONTACT_HEADER_ONE = "1. Email Address";
   static const String CONTACT_HEADER_ONE_DESCRIPTION = "ivy.leano@outlook.com";
 
-  static const String CONTACT_HEADER_TWO = "LinkedIn";
+  static const String CONTACT_HEADER_TWO = "2. LinkedIn";
   static const String CONTACT_HEADER_TWO_LABEL = "@Ivy Leano";
   static const String CONTACT_HEADER_TWO_DESCRIPTION = "https://www.linkedin.com/in/ivy-leano/";
 
-  static const String CONTACT_HEADER_THREE = "GitHub";
+  static const String CONTACT_HEADER_THREE = "3. GitHub";
   static const String CONTACT_HEADER_THREE_LABEL = "@IvyLeano";
   static const String CONTACT_HEADER_THREE_DESCRIPTION = "https://github.com/IvyLeano";
 
@@ -168,6 +166,7 @@ class Constants {
   static Color APP_BAR_DRAWER_LIST_TILE_THREE_COLOR = Colors.amber[300];
   static Color APP_BAR_DRAWER_LIST_TILE_FOUR_COLOR = Colors.amber[200];
   static Color HYPER_LINK_COLOR = Colors.amber[50];
+  static Color PRIMARY_SWATCH = Colors.blue;
 
   // 3.4. ICONS - COLOR & SIZE
   static Color ICON_AND_APP_BAR_TEXT_COLOR = Colors.pink;

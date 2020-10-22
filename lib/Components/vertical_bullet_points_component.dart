@@ -1,7 +1,7 @@
+import 'package:Portfolio/Components/text_component.dart';
 import 'package:flutter/cupertino.dart';
 
 import '../constants.dart';
-import 'description_component.dart';
 
 class VerticalBulletPointsComponent extends StatelessWidget {
   const VerticalBulletPointsComponent({Key key, this.list});
@@ -12,8 +12,8 @@ class VerticalBulletPointsComponent extends StatelessWidget {
     List<Widget> bulletPoints = new List<Widget>();
 
     for (int i = 0; i < list.length; i++) {
-      bulletPoints.add(DescriptionComponent(
-          description: list[i],
+      bulletPoints.add(TextComponent(
+          text: list[i],
           fontFamily: Constants.DEFAULT_FONT_FAMILY,
           fontSize: Constants.DEFAULT_FONT_SIZE));
       bulletPoints.add(

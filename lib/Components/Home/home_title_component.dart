@@ -1,7 +1,7 @@
 import 'package:Portfolio/constants.dart';
 import 'package:flutter/cupertino.dart';
 
-import '../header_component.dart';
+import '../text_component.dart';
 
 class HomeTitleComponent extends StatelessWidget {
   const HomeTitleComponent({Key key});
@@ -10,18 +10,24 @@ class HomeTitleComponent extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        HeaderComponent(
-            header: Constants.HOME_NAME,
-            fontFamily: Constants.TITLE_FONT_FAMILY,
-            fontSize: Constants.TITLE_FONT_SIZE),
-        HeaderComponent(
-            header: Constants.HOME_OCCUPATION,
-            fontFamily: Constants.TITLE_FONT_FAMILY,
-            fontSize: Constants.TITLE_FONT_SIZE),
-        HeaderComponent(
-            header: Constants.HOME_LOCATION,
-            fontFamily: Constants.TITLE_FONT_FAMILY,
-            fontSize: Constants.TITLE_FONT_SIZE),
+        TextComponent(
+          text: Constants.HOME_NAME,
+          fontFamily: Constants.TITLE_FONT_FAMILY,
+          fontSize: Constants.TITLE_FONT_SIZE,
+          fontWeight: FontWeight.bold,
+        ),
+        TextComponent(
+          text: Constants.HOME_OCCUPATION,
+          fontFamily: Constants.TITLE_FONT_FAMILY,
+          fontSize: Constants.TITLE_FONT_SIZE,
+          fontWeight: FontWeight.bold,
+        ),
+        TextComponent(
+          text: Constants.HOME_LOCATION,
+          fontFamily: Constants.TITLE_FONT_FAMILY,
+          fontSize: Constants.TITLE_FONT_SIZE,
+          fontWeight: FontWeight.bold,
+        ),
         SizedBox(
           height: MediaQuery.of(context).size.height *
               Constants

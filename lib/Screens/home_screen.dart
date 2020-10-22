@@ -1,9 +1,8 @@
 import 'package:Portfolio/Components/Home/home_education_component.dart';
 import 'package:Portfolio/Components/Home/home_title_component.dart';
 import 'package:Portfolio/Components/Home/home_work_history_component.dart';
-import 'package:Portfolio/Components/description_component.dart';
-import 'package:Portfolio/Components/header_component.dart';
 import 'package:Portfolio/Components/nav_bar_component.dart';
+import 'package:Portfolio/Components/text_component.dart';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -11,6 +10,8 @@ import 'package:flutter/material.dart';
 import '../constants.dart';
 
 class HomeScreen extends StatelessWidget {
+  const HomeScreen({Key key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -33,8 +34,8 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             children: <Widget>[
               HomeTitleComponent(),
-              DescriptionComponent(
-                  description: Constants.HOME_SUMMARY,
+              TextComponent(
+                  text: Constants.HOME_SUMMARY,
                   fontFamily: Constants.DEFAULT_FONT_FAMILY,
                   fontSize: Constants.DEFAULT_FONT_SIZE),
               SizedBox(

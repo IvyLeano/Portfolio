@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants.dart';
-import '../header_component.dart';
+import '../text_component.dart';
 import '../vertical_bullet_points_component.dart';
 
 class TechnologyIdesEditorsComponent extends StatelessWidget {
@@ -12,10 +12,12 @@ class TechnologyIdesEditorsComponent extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        HeaderComponent(
-            header: Constants.TECHNOLOGY_HEADER_ONE,
-            fontFamily: Constants.HEADER_FONT_FAMILY,
-            fontSize: Constants.HEADER_FONT_SIZE),
+        TextComponent(
+          text: Constants.TECHNOLOGY_HEADER_ONE,
+          fontFamily: Constants.HEADER_FONT_FAMILY,
+          fontSize: Constants.HEADER_FONT_SIZE,
+          fontWeight: FontWeight.bold,
+        ),
         SizedBox(
           height: MediaQuery.of(context).size.height *
               Constants

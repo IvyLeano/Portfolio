@@ -2,8 +2,7 @@ import 'package:Portfolio/Components/Technology/technology_concepts_component.da
 import 'package:Portfolio/Components/Technology/technology_ides_editors.dart';
 import 'package:Portfolio/Components/Technology/technology_languages_frameworks_sdks_components.dart';
 import 'package:Portfolio/Components/Technology/technology_tools.dart';
-import 'package:Portfolio/Components/Vertical_bullet_points_component.dart';
-import 'package:Portfolio/Components/header_component.dart';
+import 'package:Portfolio/Components/text_component.dart';
 import 'package:Portfolio/Components/nav_bar_component.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -11,6 +10,8 @@ import 'package:flutter/material.dart';
 import '../constants.dart';
 
 class TechnologyScreen extends StatelessWidget {
+  const TechnologyScreen({Key key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,10 +33,12 @@ class TechnologyScreen extends StatelessWidget {
                   Constants.TOP_BOTTOM_PADDING_AS_PERCENTAGE_0F_SCREEN_HEIGHT),
           child: Column(
             children: <Widget>[
-              HeaderComponent(
-                  header: Constants.TECHNOLOGY_HEADER_TITLE,
-                  fontFamily: Constants.TITLE_FONT_FAMILY,
-                  fontSize: Constants.TITLE_FONT_SIZE),
+              TextComponent(
+                text: Constants.TECHNOLOGY_HEADER_TITLE,
+                fontFamily: Constants.TITLE_FONT_FAMILY,
+                fontSize: Constants.TITLE_FONT_SIZE,
+                fontWeight: FontWeight.bold,
+              ),
               SizedBox(
                 height: MediaQuery.of(context).size.height *
                     Constants
