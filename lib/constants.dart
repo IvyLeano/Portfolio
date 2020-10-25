@@ -44,7 +44,7 @@ class Constants {
       "1. Portfolio Website – In Progress | Individual Project |October 2020 – Current ";
   static const PROJECTS_HEADER_ONE_PROJECT_ONE_POINTS = [
     'o This website is a flutter-based application built for web and mobile platforms!',
-    'o Front-end: Spring Boot, Flutter, Firebase',
+    'o Front-end: Flutter, Firebase',
   ];
 
   static const String PROJECTS_HEADER_ONE_PROJECT_TWO =
