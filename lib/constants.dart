@@ -65,7 +65,7 @@ class Constants {
 
   static const String TECHNOLOGY_HEADER_ONE = "1) IDE's and Editors ";
   static const String TECHNOLOGY_HEADER_ONE_LIST =
-      'Android Studio, Eclipse, Visual Studio, IntelliJ, XCode ';
+      'Android Studio, Eclipse, Visual Studio, Visual Studio Code, IntelliJ, XCode ';
 
   static const String TECHNOLOGY_HEADER_TWO =
       "2) Languages, Frameworks and SDKs ";
